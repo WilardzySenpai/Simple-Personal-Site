@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="toggle" onclick="toggleMenu();"></div>
+
+    <section class="banner" id="home">
+        <div class="imgSidebar">
+            <img src="img/bg.jpg">
+        </div>
+        <div class="contentBx">
+            <h5 class="logoText">My_Porfolio</h5>
+            <div>
+                <h4><span>Hello</span>, I'm</h4>
+                <h2>SadgeSenpai</h2>
+                <h4>I'm a Blah blah developer.</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates excepturi deleniti magni dolorem ratione? Iure veritatis, maiores aspernatur voluptate inventore necessitatibus dolorum quis magni earum! Cum tempora vitae quibusdam neque!</p>
+                <a href="#" class="btn">About Me</a>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="sidebar">
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    
+    <script>
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.toggle');
+            menuToggle.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
